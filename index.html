@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f292aaf32a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="img/logo.webp" class="logo">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>
+                IT STUDENT
+            </p>
+            <h1>
+                Hi, I'm <span>Julius</span><br> Anonuevo <br> Im a Libra
+            </h1>
+        </div>
+    </div>
+</div>
+<!-- about -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="img/me.png.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am currently pursuing a course in Information Technology (IT), a field that fuels my passion for technology and problem-solving. Beyond the classroom, I’m also an avid gamer, diving into online games where I connect with friends and fellow gamers from around the world. Gaming has taught me teamwork, strategic thinking, and the importance of perseverance, all while allowing me to unwind and have fun. As a person, I pride myself on being wholesome and approachable, always striving to create a positive atmosphere wherever I go. Whether it’s helping someone with their tech issues or sharing a laugh during a gaming session, I believe in the power of kindness and always staying true to myself. My journey in IT and gaming is not just about developing technical skills but also about fostering genuine connections and spreading positivity.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Computer Programming</span><br>Writing code</li>
+                        <li><span>Web Development</span><br>code, design</li>
+                        <li><span>Culinary Arts</span><br>Cooking, baking</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Coding</span><br>Java,Html,CSS,C#</li>
+                        <li><span>Web Designer</span><br>designing</li>
+                        <li><span>Cooking</span><br>cake, bread, soups</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Grade 11</span><br>CDLSHS</li>
+                        <li><span>Grade 12</span><br>CDLSHS</li>
+                        <li><span>1st yr. College</span><br>LSPU</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- hobbies -->
+ <div id="hobbies">
+    <div class="container">
+        <h1 class="sub-title">My Hobbies</h1>
+        <div class="hobbies-list">
+            <div>
+                <i class="fa-solid fa-gamepad"></i>
+                <h2>Gaming</h2>
+                <p>I like to play Genshin Impact on my free time and love to play with my friends, also because it's an exploration game.</p>
+           <a href="https://genshin.hoyoverse.com/en/news/detail/103719">Genshin Impact</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-video"></i>
+                <h2>Watching Movies</h2>
+                <p>I love doing movie marathon with my cousins and it become my hobby and interest to make theory to every movie or series we watch, we sometimes watch movies in loklok because it’s free and it has every movies I think.</p>
+           <a href="https://loklok.tv/channel/1/Movie">Loklok</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-blog"></i>
+                <h2>Web Development</h2>
+                <p>Me and team make a website as our research project and it caught my interest and try it to.</p>
+           <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fdrive.google.com%2Fdrive%2Ffolders%2F1Z8vbKaqoEWinYC_y2Avf95ahyb4qfX31%3Ffbclid%3DIwZXh0bgNhZW0CMTAAAR1n33ZSZe3O5-KXmEL-SgcfXUMo-vxbzdMRpI26Gbao6iUoF5yyDZRaOXQ_aem_210m08z6IWHZO9KjuWoZEw&h=AT3Ob5-crpUyjCfYjLPBzVCbeesUdnMQPAQaJvhaSoEfmwBlSWj7zSNFm_Up2YAAsW_VjUhQ0dmsV3tt_srf6dxHXnIehNWgHkF66ilPjopWQFiiJnBKAHaXjXMvqaaC_v9_uVzDuC11i5c">GoogleDrive</a>
+            </div>
+        </div>
+    </div>
+ </div>
+ <!-- portfolio -->
+  <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="img/work.png">
+                <div class="layer">
+                    <h3>JavaNary</h3>
+                    <p>We make this websites with my groupmates Kianiel Cercado, and Joshua Bartolome. This website can help beginner students in learning Java.</p>
+              <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                </div>
+                <div class="work">
+                    <img src="img/ss.png">
+                    <div class="layer">
+                        <h3>GitHub</h3>
+                        <p>When I was in senior high, our prof. teach us things about GitHub and how to upload our HTML code there.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <!-- -----------contact ---------- -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Call Me LOL</h1>
+                    <p><i class="fa-regular fa-paper-plane"></i>juliusanonuevo101006@gmail.com</p>
+                    <p><i class="fa-solid fa-phone-volume"></i>09514426651</p>
+                    <div class="social-icons">
+                       <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                       <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
+                       <a href=""><i class="fa-brands fa-instagram"></i></a>
+                       <a href=""><i class="fa-brands fa-telegram"></i></a>
+                    </div>
+                    
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" email="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Julius. Please don't copy <i class="fa-solid fa-heart"></i></p>
+    </div>
+  </div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+</body>
+</html>
